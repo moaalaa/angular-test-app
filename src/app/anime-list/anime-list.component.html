@@ -1,0 +1,28 @@
+<div class="container">
+    <h1 class="h1 text-muted my-2">Anime List</h1>
+    
+    <hr>
+
+    <div class="row">
+        <div *ngFor="let anime of animeListNames" class="offset-3 col-md-6 card mb-2">
+            <div class="card-body">
+                <a class="card-title card-link" [routerLink]="['/anime-list', anime.id]" [title]="anime.title + ' Details'">{{ anime.title }}</a>
+
+                <p *ngIf="anime.description" class="card-text">
+                    {{ anime.description }}
+                </p>
+
+                
+                <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-primary" (click)="share(anime.title)">
+                        Share
+                        <i class="fas fa-share-alt"></i>
+                    </button>
+    
+                    <app-alert [anime]="anime" (notify)="onNotify()"></app-alert>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
