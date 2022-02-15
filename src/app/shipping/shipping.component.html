@@ -1,0 +1,15 @@
+<div class="container">
+    <h1 class="h1 text-muted my-2">Shopping Cart</h1>
+    
+    <hr>
+
+    
+    <ul class="list-group">
+        <li *ngFor="let shippingPrice of shippingPrices | async" class="list-group-item">
+            <span>{{ shippingPrice.type }}</span>: 
+            <span>{{ shippingPrice.price | currency }}</span>
+        </li>
+    </ul>
+
+
+</div>

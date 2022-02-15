@@ -10,12 +10,12 @@
 
                 
                 <div class="d-flex justify-content-between align-items-center">
-                    <button type="button" class="btn btn-primary" (click)="share(anime.title)">
-                        Share
-                        <i class="fas fa-share-alt"></i>
+      
+                    <button type="button" class="btn btn-primary" (click)="addToCart(anime)">
+                        Buy
+                        <i class="fas fa-money-check"></i>
                     </button>
-    
-                    <app-alert [anime]="anime" (notify)="onNotify()"></app-alert>
+
                 </div>
             </div>
         </div>

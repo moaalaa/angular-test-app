@@ -1,3 +1,8 @@
+export interface AnimeShippingPrices {
+    type: string;
+    price: number;
+}
+
 export interface Anime {
     id: number;
     title: string;

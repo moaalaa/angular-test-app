@@ -1,0 +1,16 @@
+<div class="container">
+    <h1 class="h1 text-muted my-2">Cart</h1>
+    
+    <hr>
+
+    
+    <ul class="list-group">
+        <a class="list-group-item list-group-item-action bg-primary text-white" routerLink="/shipping">Shipping Prices</a>
+        
+        <li *ngFor="let item of items" class="list-group-item">
+            <a [routerLink]="['/anime-list', item.id]" [title]="item.title + ' Details'">{{ item.title }}</a>    
+        </li>
+    </ul>
+
+
+</div>
