@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1645343315365,
+  "timestamp": 1645343417558,
   "index": "https://moaalaa.github.io/angular-test-app/index.html",
   "assetGroups": [
     {
@@ -189,7 +189,7 @@
     "https://moaalaa.github.io/angular-test-app/fa-solid-900.91c80f256c9c6e95.woff2": "07bed153d47f9129a944ee54dd72952deed074c8",
     "https://moaalaa.github.io/angular-test-app/fa-solid-900.93de309faaf03dc9.woff": "0f6fcbf47ded1a1c6ace0f67383d512b6a053dad",
     "https://moaalaa.github.io/angular-test-app/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://moaalaa.github.io/angular-test-app/index.html": "69592dfd79b317d922ee59670bf055745405758a",
+    "https://moaalaa.github.io/angular-test-app/index.html": "fab3899cae8204df779c53502a098cf7b41851bf",
     "https://moaalaa.github.io/angular-test-app/main.bca8dded9a337f8c.js": "cd966ac0a6633a024d9349b8025595357b45b002",
     "https://moaalaa.github.io/angular-test-app/manifest.webmanifest": "5ce1dc75779e0812d5a484ecfb704e0a509acabf",
     "https://moaalaa.github.io/angular-test-app/polyfills.949dfc45cce634fb.js": "4f379f5d45d726aae278095f62235d148246e819",
