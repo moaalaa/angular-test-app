@@ -12,5 +12,25 @@
         </li>
     </ul>
 
+    
+    <hr>
+
+    <form [formGroup]="checkoutForm" class="my-3" (ngSubmit)="onSubmit()">
+
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form-control" formControlName="name">
+        </div>
+        
+        <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" id="address" class="form-control" formControlName="address">
+        </div>
+
+        <button type="submit" class="btn btn-success">
+            Checkout
+            <i class="fas fa-money-check"></i>
+        </button>
+    </form>
 
 </div>
